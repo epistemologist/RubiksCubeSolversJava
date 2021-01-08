@@ -5,6 +5,7 @@ public class Cube {
     public byte[] edgePermutation;
     public byte[] cornerOrientation;
     public byte[] cornerPermutation;
+
     public Cube() {
         this.cornerOrientation = new byte[8];
         this.cornerPermutation = new byte[8];
